@@ -3,8 +3,94 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
-h1 {
-  background-color: red;
+#container {
+  display: grid;
+  grid-template-columns: repeat(12, 60px);
+  grid-column-gap: 20px;
+  grid-auto-rows: 60px;
+
+  width:960px;
+  margin: 0 auto;
+}
+#container div {
+  border: 1px solid red;
+}
+
+/*---------------------------------------------------------------Column Spans-*/
+.Span1 {
+  grid-column: auto / span 1;
+}
+.Span2 {
+  grid-column: auto / span 2;
+}
+.Span3 {
+  grid-column: auto / span 3;
+}
+.Span4 {
+  grid-column: auto / span 4;
+}
+.Span5 {
+  grid-column: auto / span 5;
+}
+.Span6 {
+  grid-column: auto / span 6;
+}
+.Span7 {
+  grid-column: auto / span 7;
+}
+.Span8 {
+  grid-column: auto / span 8;
+}
+.Span9 {
+  grid-column: auto / span 9;
+}
+.Span10 {
+  grid-column: auto / span 10;
+}
+.Span11 {
+  grid-column: auto / span 11;
+}
+.Span12 {
+  grid-column: auto / span 12;
+}
+
+/*------------------------------------------------------------------Row Spans-*/
+.VertSpan1 {
+  grid-row: auto / span 1;
+}
+.VertSpan2 {
+  grid-row: auto / span 2;
+}
+.VertSpan3 {
+  grid-row: auto / span 3;
+}
+.VertSpan4 {
+  grid-row: auto / span 4;
+}
+.VertSpan5 {
+  grid-row: auto / span 5;
+}
+.VertSpan6 {
+  grid-row: auto / span 6;
+}
+.VertSpan7 {
+  grid-row: auto / span 7;
+}
+.VertSpan8 {
+  grid-row: auto / span 8;
+}
+.VertSpan9 {
+  grid-row: auto / span 9;
+}
+.VertSpan10 {
+  grid-row: auto / span 10;
+}
+.VertSpan11 {
+  grid-row: auto / span 11;
+}
+.VertSpan12 {
+  grid-row: auto / span 12;
 }
